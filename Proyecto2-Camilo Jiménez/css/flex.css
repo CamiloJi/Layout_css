@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(54, 54, 54);
+}
+
+header{
+    color: white;
+    margin: 5px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    background-color: rgb(87, 87, 87);
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family:'Gill Sans', sans-serif;
+}
+
+
+.color-acento{
+    color: rgb(255, 180, 42);
+}
+
+
+.sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.nav{
+    border: 1px solid;
+    margin: 6px;
+    display: flex;
+    background-color: #bdbdbd;
+    
+   
+}
+
+.articles{
+    align-items: center;
+    display: flex;
+    height: 35rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+article{
+    
+    min-width: 300px;
+    border: 1px solid;
+    margin: 5px;
+    display: flex;
+    height: 200px;
+    background-color: rgb(255, 180, 42);
+}
+
+div{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f2;
+}
+
+.aside1{
+    border: 1px solid;
+    margin: 5px;
+    width: 250px;
+    background-color: orange;
+}
+
+.main{
+    margin: 5px; 
+    flex-grow: 1;  
+    
+}
+
+.aside2{
+    border: 1px solid;
+    margin: 5px;
+    width: 450px;
+    background-color: orange;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(121, 121, 121);
+    border: 1px solid;
+    height: 150px;
+
+}
+
+#search{
+    display: flex;
+    width: auto;
+    flex-grow: 1;
+    height: 30px;
+    margin-right:  8px;
+    
+    
+}
+
+#lupa{
+    display: flex; 
+    height: 35px;
+    
+}
+
+
+#e{
+    margin: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    border: 1px solid;
+    padding: 35px;
+    font-size: 50px;
+}
+
+.t-index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-index:hover{
+    background-color: rgb(199, 129, 0);
+    color: rgb(255, 255, 255);
+}
